@@ -14,19 +14,27 @@ Quickly setup a [StatsD](https://github.com/etsy/statsd/) and [Graphite](http://
 
 * Install vagrant plugins
 
-      vagrant plugin install vagrant-omnibus
-      vagrant plugin install vagrant-berkshelf --plugin-version '>= 2.0.1'
+    ```
+    vagrant plugin install vagrant-omnibus
+    vagrant plugin install vagrant-berkshelf --plugin-version '>= 2.0.1'
+    ```
 
 * Clone repository
 
-      git clone https://github.com/andrewferk/proxy-metrics
+    ```
+    git clone https://github.com/andrewferk/proxy-metrics
+    ```
 
 * Install gems
 
-      bundle install
+    ```
+    bundle install
+    ```
 
 * Start vagrant
 
-      vagrant up
-      
+    ```
+    vagrant up
+    ```
+  
 * View metrics at <http://localhost:2280>
