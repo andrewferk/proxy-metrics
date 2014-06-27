@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem 'librarian-chef', '~>0.0.3'
+gem 'berkshelf', '~>3.1'
